@@ -1,1 +1,25 @@
+# PDF files
 slides/
+
+# vim files
+.*~
+.*.s??
+
+# Ignore all maven build and test files
+target/*
+*.class
+
+# Ignore all IntelliJ IDEA files
+.idea/*
+*.iml
+*.iws
+.attach_*
+
+# Ignore all OSX hidden files
+*.DS_Store
+/bin/
+
+# ignore submission files
+hw*.zip
+*.zip
+demo/*
